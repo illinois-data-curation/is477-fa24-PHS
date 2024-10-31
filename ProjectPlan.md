@@ -39,30 +39,35 @@ In the first week, the team will focus on identifying reliable data sources and 
 Member 1 will draft the project report, focusing on refining the research questions and crafting a clear overview of the project’s goals.
 Member 2 will examine various box office and metadata sources, documenting each dataset’s structure, format, and licensing requirements.
 Member 3 will identify specific genre categories to target in later analysis and conduct background research on existing box office trends.
+
 March 27 - April 2 - Data Acquisition
 During this phase, the team will obtain and assess the quality of both datasets, ensuring they align well with the project’s objectives.
 
 Member 1 will assist in the evaluation of datasets and document the acquisition process, detailing any challenges faced and initial observations.
 Member 2 will handle the box office data acquisition, running integrity checks to verify revenue and genre data.
 Member 3 will gather the IMDB movie metadata, cross-referencing genre and ratings information to ensure it complements the box office dataset.
+
 April 3 - April 9 - Data Integration and Initial Analysis
 In this stage, the team will work to integrate and align the two datasets to establish a unified dataset for analysis.
 
 All Members: Merge datasets using Python’s Pandas library or SQL to ensure consistency in genre representation and revenue data.
 Member 1 will document the integration process, noting any difficulties in harmonizing data from different sources.
 Member 2 and Member 3 will begin preliminary analysis to explore potential patterns, checking for missing data or inconsistencies.
+
 April 10 - April 16 - Data Cleaning and Detailed Analysis
 The data will undergo comprehensive cleaning, preparing it for in-depth analysis.
 
 All Members will participate in data cleaning, removing duplicates, handling null values, and standardizing genre and title formats.
 Member 1 will update the project report with detailed insights from the data cleaning process.
 Member 2 and Member 3 will initiate the main analysis, applying statistical and machine learning techniques, such as regression analysis, to identify patterns and relationships within the data.
+
 April 17 - April 23 - Visualization and Finalization of Report
 This phase will focus on creating visual representations of the findings and finalizing the report.
 
 All Members will collaborate to produce visualizations that clearly represent key findings. Examples include bar charts for genre-based revenue, scatter plots for genre vs. rating, and time series plots to show revenue trends.
 Member 1 will ensure the project report integrates all findings and visualizations cohesively.
 Member 2 and Member 3 will fine-tune visualizations and assist with the final sections of the project report, ensuring a polished, professional output.
+
 April 24 - April 25 - Submission
 In the final days, the team will review the project in its entirety to ensure accuracy and coherence.
 
