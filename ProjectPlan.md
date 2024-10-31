@@ -1,21 +1,27 @@
 Overview
+
 In the film industry, a movie's box office success has long been one of the primary measures of its impact, reach, and profitability. With a growing diversity in genres and content types, understanding the factors that correlate with higher box office earnings has become crucial for studios, distributors, and analysts. This project’s goal is to identify trends and variables, specifically focusing on genre-based patterns, that align with higher box office success. By leveraging historical box office and movie metadata, we will aim to answer key questions about how genre, budget, and other factors contribute to a film's financial success. This analysis can serve as a guide for filmmakers, studios, and analysts in determining what influences audience engagement and maximizes revenue.
 
 Research Questions
+
 This project seeks to answer the following research questions:
 
 What movie genres are associated with higher box office earnings?
+
 By analyzing revenue data alongside genre information, we intend to identify genres that consistently perform well in terms of box office sales. This will involve examining top-grossing movies and looking for genre patterns among them.
 
 Are there recurring factors across top-performing genres that correlate with high box office revenue?
+
 Besides genre, this question will allow us to explore other variables, such as the movie’s budget, release timing, and runtime, which may contribute to its box office success. Answering this question could provide insights into specific factors that transcend genre and contribute to audience appeal and profitability.
 
 Team
+
 Our team is adopting a collaborative approach to ensure comprehensive data analysis, with each team member sharing responsibilities across data collection, cleaning, and analysis phases. This structure allows us to collectively leverage our strengths in each area. While each member will contribute to all major tasks, specific individuals will take the lead on designated aspects of the project, particularly during the final reporting and visualization stages. By maintaining open communication and regular check-ins, we aim to distribute tasks efficiently and provide support to one another throughout the project.
 
 Datasets
 
 Box Office Revenue Data
+
 This dataset provides historical box office revenue information for a wide range of movies, covering details such as genre, budget, release date, and both domestic and international earnings. We will source this data from either The Numbers or Box Office Mojo, both of which provide reliable box office data for analysis. This dataset will allow us to examine trends across various genres, and analyze how budget size correlates with overall box office performance. Key columns in this dataset include Movie Title, Genre, Domestic Earnings, International Earnings, Worldwide Earnings, Budget, and Release Date. By having access to international and domestic revenue data, we can investigate if certain genres have universal appeal or if some resonate more strongly with domestic audiences.
 
 Format: CSV file
