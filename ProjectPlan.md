@@ -1,53 +1,64 @@
 Overview
-The film industry’s influence on global culture is immense, and box office success often becomes a key indicator of a movie’s reach and profitability. With a surge in content across various genres, identifying trends and factors that influence high box office earnings has become crucial for studios and analysts alike. Our project aims to investigate specific genre-related trends and other variables that correlate with greater box office success, thereby helping industry professionals and researchers understand what makes movies perform well in theaters.
+In the film industry, a movie's box office success has long been one of the primary measures of its impact, reach, and profitability. With a growing diversity in genres and content types, understanding the factors that correlate with higher box office earnings has become crucial for studios, distributors, and analysts. This project’s goal is to identify trends and variables, specifically focusing on genre-based patterns, that align with higher box office success. By leveraging historical box office and movie metadata, we will aim to answer key questions about how genre, budget, and other factors contribute to a film's financial success. This analysis can serve as a guide for filmmakers, studios, and analysts in determining what influences audience engagement and maximizes revenue.
 
 Research Questions
+This project seeks to answer the following research questions:
 
 What movie genres are associated with higher box office earnings?
+By analyzing revenue data alongside genre information, we intend to identify genres that consistently perform well in terms of box office sales. This will involve examining top-grossing movies and looking for genre patterns among them.
+
 Are there recurring factors across top-performing genres that correlate with high box office revenue?
+Besides genre, this question will allow us to explore other variables, such as the movie’s budget, release timing, and runtime, which may contribute to its box office success. Answering this question could provide insights into specific factors that transcend genre and contribute to audience appeal and profitability.
+
 Team
-Our team has opted for a collaborative approach to ensure a comprehensive analysis, with all members sharing responsibilities across data collection, cleaning, and analysis. This structure allows us to leverage collective insights during each project phase, from research and acquisition to integration and reporting.
+Our team is adopting a collaborative approach to ensure comprehensive data analysis, with each team member sharing responsibilities across data collection, cleaning, and analysis phases. This structure allows us to collectively leverage our strengths in each area. While each member will contribute to all major tasks, specific individuals will take the lead on designated aspects of the project, particularly during the final reporting and visualization stages. By maintaining open communication and regular check-ins, we aim to distribute tasks efficiently and provide support to one another throughout the project.
 
 Datasets
 
 Box Office Revenue Data
-This dataset provides detailed historical box office revenue figures for various movies, segmented by genre, production budget, release year, and earnings. Sourced from The Numbers or Box Office Mojo, the dataset includes columns such as Movie Title, Genre, Domestic Earnings, International Earnings, Worldwide Earnings, Budget, and Release Date. This data will allow us to pinpoint genres that consistently perform well at the box office, as well as explore other factors such as budget and international appeal.
+This dataset provides historical box office revenue information for a wide range of movies, covering details such as genre, budget, release date, and both domestic and international earnings. We will source this data from either The Numbers or Box Office Mojo, both of which provide reliable box office data for analysis. This dataset will allow us to examine trends across various genres, and analyze how budget size correlates with overall box office performance. Key columns in this dataset include Movie Title, Genre, Domestic Earnings, International Earnings, Worldwide Earnings, Budget, and Release Date. By having access to international and domestic revenue data, we can investigate if certain genres have universal appeal or if some resonate more strongly with domestic audiences.
 
 Format: CSV file
-Source: Box Office Mojo or The Numbers (freely accessible datasets)
+Source: Box Office Mojo or The Numbers, both of which offer data in accessible formats for analysis.
 IMDB Movie Metadata
-This dataset contains comprehensive movie metadata from IMDB, including information on cast, crew, runtime, genres, and user ratings. The inclusion of IMDB user ratings and detailed genre breakdowns helps enrich our analysis, as we can correlate viewer preferences, star power, and genre popularity with box office earnings. The columns in this dataset include Title, Genre, Director, Cast, Runtime, Rating, and Votes.
+This dataset offers extensive metadata on movies from IMDB, including information on genre, cast, director, runtime, and user ratings. IMDB’s vast database provides additional context to each film, helping us enrich our box office analysis with data on star power, director influence, and user engagement through ratings and votes. This will allow us to explore correlations between these elements and box office performance. For example, we can analyze if movies with higher ratings or specific actors/directors perform better on average. The dataset includes columns like Title, Genre, Director, Cast, Runtime, Rating, and Votes. This information will be valuable in understanding how factors beyond genre may affect a movie's box office revenue, helping us refine our analysis and offer more nuanced insights.
 
 Format: CSV file
-Source: IMDB dataset (publicly accessible through IMDb Datasets)
+Source: IMDB Datasets, available publicly for research and analysis.
 Timeline
 
 March 20 - March 26 - Data Identification and Preliminary Research
+In the first week, the team will focus on identifying reliable data sources and beginning preliminary research on key industry trends.
 
-Member 1: Begin drafting the project report, emphasizing the project’s overall goal and refining research questions.
-Member 2: Explore various box office and movie metadata datasets, noting each dataset's format, structure, and licensing requirements.
-Member 3: Conduct preliminary research on industry trends and identify specific genre categories to focus on during analysis.
+Member 1 will draft the project report, focusing on refining the research questions and crafting a clear overview of the project’s goals.
+Member 2 will examine various box office and metadata sources, documenting each dataset’s structure, format, and licensing requirements.
+Member 3 will identify specific genre categories to target in later analysis and conduct background research on existing box office trends.
 March 27 - April 2 - Data Acquisition
+During this phase, the team will obtain and assess the quality of both datasets, ensuring they align well with the project’s objectives.
 
-Member 1: Help evaluate datasets for suitability and document the acquisition process, ensuring an organized approach to collecting data.
-Member 2: Focus on acquiring the box office revenue dataset and verifying its data integrity, especially around key columns like genre and revenue.
-Member 3: Collect IMDB movie metadata, cross-referencing genre and rating information to ensure it complements the revenue data.
+Member 1 will assist in the evaluation of datasets and document the acquisition process, detailing any challenges faced and initial observations.
+Member 2 will handle the box office data acquisition, running integrity checks to verify revenue and genre data.
+Member 3 will gather the IMDB movie metadata, cross-referencing genre and ratings information to ensure it complements the box office dataset.
 April 3 - April 9 - Data Integration and Initial Analysis
+In this stage, the team will work to integrate and align the two datasets to establish a unified dataset for analysis.
 
-All Members: Integrate datasets using Python (Pandas) or SQL to align data formats, ensuring genre information is consistently represented.
-Member 1: Document the data integration process, noting any challenges in matching data from different sources.
-Member 2 & Member 3: Perform initial analysis, identifying genre-related patterns and determining if additional cleaning is needed.
+All Members: Merge datasets using Python’s Pandas library or SQL to ensure consistency in genre representation and revenue data.
+Member 1 will document the integration process, noting any difficulties in harmonizing data from different sources.
+Member 2 and Member 3 will begin preliminary analysis to explore potential patterns, checking for missing data or inconsistencies.
 April 10 - April 16 - Data Cleaning and Detailed Analysis
+The data will undergo comprehensive cleaning, preparing it for in-depth analysis.
 
-All Members: Conduct data cleaning, removing duplicates, handling missing values, and normalizing data across the datasets.
-Member 1: Update the project report to reflect insights from the data cleaning process.
-Member 2 & Member 3: Apply statistical and machine learning techniques (e.g., regression analysis) to examine how genre and other variables impact box office success.
+All Members will participate in data cleaning, removing duplicates, handling null values, and standardizing genre and title formats.
+Member 1 will update the project report with detailed insights from the data cleaning process.
+Member 2 and Member 3 will initiate the main analysis, applying statistical and machine learning techniques, such as regression analysis, to identify patterns and relationships within the data.
 April 17 - April 23 - Visualization and Finalization of Report
+This phase will focus on creating visual representations of the findings and finalizing the report.
 
-All Members: Develop visualizations that clearly represent findings, such as bar charts for revenue by genre, scatter plots for genre vs. rating, and line charts to show revenue trends over time.
-Member 1: Integrate findings and visualizations into the project report to create a cohesive narrative.
-Member 2 & Member 3: Refine visualizations, making adjustments as needed to best represent the analysis outcomes.
+All Members will collaborate to produce visualizations that clearly represent key findings. Examples include bar charts for genre-based revenue, scatter plots for genre vs. rating, and time series plots to show revenue trends.
+Member 1 will ensure the project report integrates all findings and visualizations cohesively.
+Member 2 and Member 3 will fine-tune visualizations and assist with the final sections of the project report, ensuring a polished, professional output.
 April 24 - April 25 - Submission
+In the final days, the team will review the project in its entirety to ensure accuracy and coherence.
 
-All Members: Conduct a final review of the project report and ensure the GitHub repository is well-organized with clear documentation and finalized code.
-This project will contribute valuable insights into the relationship between movie genre and box office performance, helping to identify what makes a movie successful in terms of revenue. Through collaborative data analysis and visualization, we aim to provide a data-driven understanding of key trends in movie genres and their correlation with box office success.
+All Members will perform a complete review of the report, GitHub repository, documentation, and code, making final adjustments as necessary before submission.
+This project will yield valuable insights into how genre, budget, and other factors correlate with box office success. The analysis will highlight key trends, and the collaborative team approach will ensure a well-rounded and in-depth investigation of the data. By identifying these trends, the project has the potential to inform industry decision-makers on what drives box office revenue, supporting more data-driven content creation strategies in the future.
