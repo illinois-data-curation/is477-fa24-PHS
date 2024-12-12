@@ -1,5 +1,8 @@
 # is477-fa24-PHS
-Pranavi-Hiba-Saby
+Zenodo DOI: 10.5072/zenodo.141755
+- Pranavi
+- Hiba
+- Saby
 
 Summary: 
 
