@@ -33,6 +33,49 @@ Looking at trends in  smaller states could help uncover how covid-19 emphasized 
 Throughout this project, all team members contributed equally to ensure its successful completion. From the beginning, we collaborated closely to select and collect the datasets, brainstorming and discussing as a group to identify the most relevant and meaningful sources of data. Once the datasets were finalized, we divided the work based on our strengths and interests to maximize efficiency and quality. Pranavi took the lead on drafting the essay portion of the project, crafting a clear and cohesive narrative that tied together our findings. Hiba focused on data cleaning and conducting initial analyses to prepare the datasets for further processing. Meanwhile, Saby worked on advanced analysis using Python and Snakemake, ensuring the integration of cleaned data and generating actionable insights.
 Pranavi Challagonda contributed equally to all parts of the project. Hiba Ayub contributed equally to all parts of the project. Sabarish Mogallapalli contributed equally to all parts of the project.
 
+## Reproducing:
+
+#### Clone the Repository:
+
+Make a local copy of the repository by pasting this command in the terminal location where you want the repository to live:
+
+```
+git clone https://github.com/illinois-data-curation/is477-fa24-PHS.git
+
+```
+#### Set up the python virtual environment:
+
+Enter this in the terminal:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+#### Install the requirements:
+
+Enter this in the terminal:
+
+```
+pip install -r requirements.txt![image](https://github.com/user-attachments/assets/e305cc77-afe5-4581-a08f-d298b03868e9)
+
+```
+
+#### Run the snakemake workflow:
+
+Run the Snakemake workflow by entering this in the terminal:
+
+```
+snakemake --cores 1
+
+```
+
+The workflow will use the datasets from the files and run the jupyter notebook file, outputting the necessary data and visualizations:
+
+<img width="1470" alt="Screenshot 2024-12-11 at 10 52 38 PM" src="https://github.com/user-attachments/assets/d1f30fb8-64c8-4b17-9455-42da01b08f4c" />
+
+
 ### Citations
 
 CDC. (2024). Weekly United States COVID-19 cases and deaths by state, territory, and jurisdiction. Data.CDC.gov. Retrieved from https://data.cdc.gov/Case-Surveillance/Weekly-United-States-COVID-19-Cases-and-Deaths-by-/pwn4-m3yp/data
