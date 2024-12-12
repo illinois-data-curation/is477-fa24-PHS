@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+  <identifier identifierType="DOI">10.5072/zenodo.141755</identifier>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="URL">https://sandbox.zenodo.org/records/141755</alternateIdentifier>
+    <alternateIdentifier alternateIdentifierType="oai">oai:zenodo.org:141755</alternateIdentifier>
+  </alternateIdentifiers>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Hiba Ayub</creatorName>
+      <familyName>Hiba Ayub</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0009-0008-9169-1201</nameIdentifier>
+    </creator>
+  </creators>
+  <titles>
+    <title>IS477 PHS</title>
+  </titles>
+  <publisher>Zenodo</publisher>
+  <publicationYear>2024</publicationYear>
+  <dates>
+    <date dateType="Issued">2024-12-12</date>
+    <date dateType="Submitted">2024-12-11</date>
+    <date dateType="Updated">2024-12-12</date>
+  </dates>
+  <resourceType resourceTypeGeneral="Software"></resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo" resourceTypeGeneral="Software">https://github.com/illinois-data-curation/is477-fa24-PHS/releases/tag/metadata</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsVersionOf">10.5072/zenodo.141754</relatedIdentifier>
+  </relatedIdentifiers>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/legalcode" rightsIdentifierScheme="spdx" rightsIdentifier="cc-by-4.0">Creative Commons Attribution 4.0 International</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Final Project</description>
+  </descriptions>
+</resource>
