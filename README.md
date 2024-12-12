@@ -35,3 +35,9 @@ Looking at trends in  smaller states could help uncover how covid-19 emphasized 
 
 Throughout this project, all team members contributed equally to ensure its successful completion. From the beginning, we collaborated closely to select and collect the datasets, brainstorming and discussing as a group to identify the most relevant and meaningful sources of data. Once the datasets were finalized, we divided the work based on our strengths and interests to maximize efficiency and quality. Pranavi took the lead on drafting the essay portion of the project, crafting a clear and cohesive narrative that tied together our findings. Hiba focused on data cleaning and conducting initial analyses to prepare the datasets for further processing. Meanwhile, Saby worked on advanced analysis using Python and Snakemake, ensuring the integration of cleaned data and generating actionable insights.
 Although some tasks required individual efforts, we often worked together on one laptop during group meetings, which explains why not all contributions appear evenly in the Git commit history. This collaborative setup allowed us to exchange ideas and address challenges in real-time, ensuring a more seamless and cohesive workflow. Overall, each member played a significant and integral role, contributing equally to the final outcome.
+
+### Citations
+
+CDC. (2024). Weekly United States COVID-19 cases and deaths by state, territory, and jurisdiction. Data.CDC.gov. Retrieved from https://data.cdc.gov/Case-Surveillance/Weekly-United-States-COVID-19-Cases-and-Deaths-by-/pwn4-m3yp/data
+
+Kirko, I. (2021). Mojo Box Office Movies with Budget Listed. Kaggle. Retrieved from https://www.kaggle.com/datasets/igorkirko/wwwboxofficemojocom-movies-with-budget-listed
